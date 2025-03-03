@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Video Screenshot",
+    "version": "1.0",
+    "description": "Capture and save YouTube video screenshots",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["https://www.youtube.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["content_script.js"]
+      }
+    ]
+  }
+  
+  
