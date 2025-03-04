@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "YouTube Video Screenshot",
     "version": "1.0",
-    "description": "Capture and save YouTube video screenshots",
+    "description": "Capture and save YouTube video screenshots by clicking 's' ",
     "permissions": ["activeTab", "scripting"],
     "host_permissions": ["https://www.youtube.com/*"],
     "content_scripts": [
