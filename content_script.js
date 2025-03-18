@@ -22,7 +22,7 @@ function captureScreenshot() {
 
 // Listen for the "S" key press (without Ctrl/Alt)
 document.addEventListener("keydown", (event) => {
-    if (event.key.toLowerCase() === "s" && !event.ctrlKey && !event.metaKey && !event.altKey) {
+    if (event.key.toLowerCase() === "s" && !event.ctrlKey && !event.metaKey && event.altKey) {
         captureScreenshot();
     }
 });
